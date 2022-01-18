@@ -1,4 +1,4 @@
-FROM node:16-buster AS frontend-builder
+FROM node:16-buster-slim AS frontend-builder
 
 WORKDIR /build
 COPY ringtools-web-v2 .
