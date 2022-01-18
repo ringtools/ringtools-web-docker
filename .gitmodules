@@ -1,0 +1,6 @@
+[submodule "ringtools-server-ts"]
+	path = ringtools-server-ts
+	url = https://github.com/ringtools/ringtools-server-ts
+[submodule "ringtools-web-v2"]
+	path = ringtools-web-v2
+	url = https://github.com/ringtools/ringtools-web-v2.git

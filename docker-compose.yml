@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  ringtoolsweb:
+    build: .
+    image: ringtools/web
+    ports:
+      - "7464:7464"
+    env_file:
+      - .env
+    volumes:
+      - ./credentials:/lnd:ro
