@@ -15,6 +15,7 @@ FROM node:16-buster-slim AS api-builder
 WORKDIR /build
 COPY ringtools-server-ts .
 RUN yarn install && yarn build:ts
+RUN npm prune --production
 
 FROM node:16-buster-slim 
 
